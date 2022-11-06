@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="container_btn">
+            <button id='1' class="btn open" onclick="clickBike()">Горный велосипед</button>
+            <button id='2' class="btn" onclick="clickBikeWoman()" >Женский велосипед</button>
+        </div>
+        <div id="card" class="card_container">
+            <div class="card">
+                <div class="description">
+                    <div class="picture">
+                        <img id="Img" src="image1.png" >
+                    </div>
+                    <div class="description__inner">
+                        <h1 id="MainNode">Велосипед STELS Navigator 510 HD 26 2022</h1>
+                        <p id="MainNode__1">Данный велосипед с колесами 26 дюймов хорошо подходит высоким подросткам. Прогиб рамы и небольшой размер рамы расчитан на рост от 135 до 165 см.</p>
+                        <p id="MainNode__2">Суммарный вес велосипеда был снижен до 16,9 кг, так как рама была изготовлена с учетом использования велосипеда подростками.</p>
+                    </div>
+                </div>
+
+                
+
+                <div class="card_after">
+
+                    <hr style="background-color: #D9D9D9; height: 1px; border: 0;">
+
+                    <div class="card_after__inner">
+                        <h2 style="margin-top: 40px;">Характеристики</h2>
+                        
+                            <ul id="ul" class="characteristics">
+                                <div class="characteristics__inner">
+                                    <li id="char_1">&nbsp&nbsp&nbspДвойной обод</li>
+                                </div>
+                                <div class="characteristics__inner">
+                                    <li id="char_3">&nbsp&nbsp&nbspКолеса диаметром 26 дюймов</li>
+                                </div >
+                                <div class="characteristics__inner">
+                                    <li id="char_2">&nbsp&nbsp&nbspАлюминиевый сплав</li>
+                                </div>
+                                <div class="characteristics__inner">
+                                    <li id="char_4">&nbsp&nbsp&nbspПокрышки 26х1,95"</li>
+                                </div>
+                            </ul>
+                        
+                    </div>
+
+                    <h2 style="margin-top: 20px;">Добавить характеристику</h2>
+                    <div class="card_form">
+                        <div class="form">
+                            <input required placeholder=" Алюминиевый сплав"/>
+                            <button class="btn1">Добавить</button>
+                        </div>
+                        <div class="card_accept">
+                            <button class="btn1" style="margin-left: 24px;">Окей</button>
+                            <button class="btn2">Отмена</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
